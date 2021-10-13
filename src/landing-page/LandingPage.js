@@ -7,7 +7,21 @@ export class LandingPage extends Component {
     return (
       <div className="main">
         <div className="nav-bar">
-          <img src={logo} alt="img"></img>
+          <img id="logo" src={logo} alt="img"></img>
+          <ul className="menu-list">
+              <li>
+                  <a href="/">Sign up your restaurant</a>
+              </li>
+              <li>
+                  <a href="/">Become a driver</a>
+              </li>
+              <li>
+                  <a href="/">Login</a>
+              </li>
+              <li id="sign-up">
+                  <a href="/">Sign up</a>
+              </li>
+          </ul>
         </div>
         <div className="section-lunch">
           <div className="section-lunch-left">
@@ -18,7 +32,20 @@ export class LandingPage extends Component {
             <div className="search-box">
               <input placeholder="Enter your street address" />
               <button>Find restaurants</button>
-              
+              <div className="search-result">
+                <div className="search-result-item">
+                  <span class="start">Pretoria, South Africa</span><br/>
+                  <span class="end">Justice Mahomed Street, Brooklyn</span>
+                </div>
+                <div className="search-result-item">
+                  <span class="start">Pretoria, South Africa</span><br/>
+                  <span class="end">Justice Mahomed Street, Brooklyn</span>
+                </div>
+                <div className="search-result-item">
+                  <span class="start">Pretoria, South Africa</span><br/>
+                  <span class="end">Justice Mahomed Street, Brooklyn</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section-lunch-right">right</div>
