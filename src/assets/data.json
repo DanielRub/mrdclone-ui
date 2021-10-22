@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Babbleset",
+    "tags": "Burgers chicken Burgers",
+    "featured_image": "http://dummyimage.com/437x214.png/5fa2dd/ffffff",
+    "logo": "http://dummyimage.com/50x50.png/cc0000/ffffff",
+    "distance_duration": 127,
+    "featured_cuisine": "Half Chicken + Single Side for R114",
+    "cuisines":["pizza","burgers","chicken"],
+    "rating":120
+  },
+  {
+    "name": "Babbleopia",
+    "tags": "Burgers chicken Burgers",
+    "featured_image": "http://dummyimage.com/437x214.png/cc0000/ffffff",
+    "logo": "http://dummyimage.com/50x50.png/5fa2dd/ffffff",
+    "distance_duration": 36,
+    "featured_cuisine": "Spilonema Lichen",
+    "cuisines":["pizza","burgers","chicken"],
+    "rating":300
+
+  },
+  {
+    "name": "Aivee",
+    "tags": "Burgers chicken Burgers",
+    "featured_image": "http://dummyimage.com/437x214.png/5fa2dd/ffffff",
+    "logo": "http://dummyimage.com/50x50.png/5fa2dd/ffffff",
+    "distance_duration": 77,
+    "featured_cuisine": "Cernohorsky's Wreath Lichen",
+    "cuisines":["pizza","burgers","chicken"],
+    "rating":1000
+
+  }
+]

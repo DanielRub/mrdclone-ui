@@ -91,7 +91,7 @@ html * {
   align-items: flex-start;
   text-align: left;
   margin: 12px 0px 0px 0px;
-  height: 200px;
+  height: 220px;
 }
 .search-result .search-result-item {
   border-style: solid;
@@ -99,6 +99,8 @@ html * {
   border-width: 0 0 1px 0;
   padding: 12px 12px 12px 12px;
   width: 405px;
+  text-decoration: none;
+
 }
 .search-result .search-result-item:hover {
     border-style: solid;
@@ -130,11 +132,11 @@ html * {
   z-index: -1;
   margin-left: 40%;
 }
-.search-box {
+.lp-search-box {
   margin-top: 50px;
   height: 60px;
 }
-.search-box input {
+.lp-search-box input {
   height: 93%;
   width: 420px;
   font-size: 17px;
@@ -142,7 +144,7 @@ html * {
   border-width: 1px;
   padding-left: 12px;
 }
-.search-box button {
+.lp-search-box button {
   height: 100%;
   background-color: yellow;
   color: black;

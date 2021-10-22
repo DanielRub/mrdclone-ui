@@ -1,0 +1,113 @@
+html * {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+}
+.main .header {
+  background-color: #6dcff6;
+  width: 100vw;
+  height: 150px;
+}
+.main .header .top {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #060b0d;
+  text-align: center;
+}
+.main .header .top p{
+  
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #060b0d;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.main .header .top a {
+  text-decoration: none;
+  color: #060b0d;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.main .header .top .address a {
+  background-color: #62badd;
+  color: black;
+  border-radius: 8px;
+  padding: 4px 60px;
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.main .containt {
+  background-color: whitesmoke;
+  padding: 20px 40px;
+}
+#list-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #060b0d;
+}
+.main .containt ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.open-box {
+  border-radius: 20px 20px 0 0 !important;
+}
+.search-box input {
+  border-radius: 20px;
+  height: 40px;
+  width: 80vw;
+  text-align: center;
+  border-width: 0px;
+  font-size: 15px;
+  outline-style: none;
+}
+
+.search-box input:focus {
+  border-radius: 20px 20px 0 0;
+}
+
+.dropdown-search {
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+  margin-top: 40px;
+  width: 77vw;
+  border-radius: 0 0 20px 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #060b0d;
+}
+
+.dropdown-search ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 10px;
+}
+.dropdown-search ul a{
+  text-decoration: none;
+  color: #060b0d;
+
+}
